@@ -2,10 +2,10 @@ arr = ["R","P","S"]
 
 begin
 comChoose = arr.sample
-puts "============================================"
-puts "     welcome to play Rock Paper Sicssor     "
-puts "============================================"
-puts "please choose Rock(R) Paper(P) or Sicssor(S)"
+puts "=============================================="
+puts "=     welcome to play Rock Paper Sicssor     ="
+puts "=============================================="
+puts "=please choose Rock(R) Paper(P) or Sicssor(S)="
 playerChoose =  gets.chomp.to_s.upcase
 
 if playerChoose != comChoose
@@ -33,3 +33,9 @@ puts "do you want to play again(Y/N)"
 playAgain = gets.chomp.to_s.upcase
 
 end while playAgain == "Y"
+
+puts "=============================================="
+puts "=            Thanks for playing              ="
+puts "=               BY Fan666s42s                ="
+puts "=============================================="
+
